@@ -30,7 +30,7 @@ body {
   padding-top: 60px;
   background-image: url("../img/wheat-back.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   color: #ffffff;
   background-color: #ffcb78;
@@ -49,4 +49,47 @@ body {
 .header-logo img {
   height: 76px;
   width: 140px;
+}
+
+.main-nav {
+  float: left;
+  width: 600px;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 5px;
+  padding: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  list-style: none;
+  font-weight: bold;
+  line-height: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-nav li {
+  float: left;
+  margin-right: 54px; 
+  text-transform: uppercase;
+}
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #ffcb78;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 16px;
+}
+
+.main-nav a:active {
+  color: rgba(255, 203, 120, 0.3);
+  border-bottom: 1px solid #fff;
+  padding-bottom: 16px;
 }
