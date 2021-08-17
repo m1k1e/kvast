@@ -35,3 +35,18 @@ body {
   color: #ffffff;
   background-color: #ffcb78;
 }
+
+.header-top {
+  margin-bottom: 120px;
+}
+
+.header-logo {
+  float: left;
+  width: 140px;
+  height: 76px;
+}
+
+.header-logo img {
+  height: 76px;
+  width: 140px;
+}
