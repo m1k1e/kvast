@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -5px;
+}
+
+.sprite-htmlacademy {
+    width: 27px;
+    height: 34px;
+    background-position: -85px -5px;
+}
+
+.sprite-icon-brew {
+    width: 50px;
+    height: 68px;
+    background-position: -5px -49px;
+}
+
+.sprite-icon-fb {
+    width: 8px;
+    height: 16px;
+    background-position: -122px -5px;
+}
+
+.sprite-icon-insta {
+    width: 14px;
+    height: 14px;
+    background-position: -140px -5px;
+}
+
+.sprite-icon-matreshka {
+    width: 46px;
+    height: 65px;
+    background-position: -65px -49px;
+}
+
+.sprite-icon-thumbsup {
+    width: 63px;
+    height: 58px;
+    background-position: -164px -5px;
+}
+
+.sprite-icon-vk {
+    width: 20px;
+    height: 11px;
+    background-position: -121px -73px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -151px -73px;
+}
+
+.sprite-quotes {
+    width: 41px;
+    height: 31px;
+    background-position: -191px -73px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -121px -114px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -161px -114px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -201px -114px;
+}
