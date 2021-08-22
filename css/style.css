@@ -100,3 +100,132 @@ body {
   line-height: 70px;
   text-align: center;
 }
+
+.new-items {
+  padding-top: 85px;
+  padding-bottom: 110px;
+  background-color: #fff;
+}
+
+.new-items h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 90px;
+  text-transform: uppercase;
+}
+
+.catalog-new-items {
+  border-left: 1px solid #e5e5e5;
+  float: left;
+  height: 755px;
+  position: relative;
+  width: 398px;
+}
+
+.catalog-new-items:last-child {
+  border-right: 1px solid #e5e5e5;
+}
+
+.catalog-new-items h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 16px;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+
+}
+
+.top-position-item {
+  margin-right: 25px;
+  position: absolute;
+  right: 0;
+  top:85px;
+  width: 155px;
+}
+
+.product-feature table{
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.product-feature td {
+  border: 1px solid #e5e5e5;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+
+.item-structure p {
+  color:404040;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.item-image {
+  max-width: 100%;
+  margin-left: 35px;
+  height: auto;
+  height: 459px;
+  width: 319px;
+}
+
+.item-subscribe {
+  margin: 0;
+  margin-left: 35px;
+  margin-top: 20px;
+  margin-bottom: 65px;
+  width: 330px;
+}
+
+.item-control {
+  margin: 0;
+  margin-left: 35px;
+}
+
+.item-control .btn {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.item-control .btn-info {
+  color: #834700;
+  background-color: #ffffff;
+  border: 2px solid #834700;
+  padding: 13px 21px;
+}
+
+.item-control .btn-info:hover {
+  color: #6a3900;
+  border-color: #6a3900;
+}
+
+.item-control .btn-info:active {
+  color: rgba(106, 57, 0, 0.3);
+  border-color: rgba(106, 57, 0, 0.3);
+}
+
+.item-control .btn-buy {
+  color: #ffffff;
+  background-color: #834700;
+  margin-left: 10px;
+  margin-right: 25px;
+  padding: 15px 21px;
+}
+
+.item-control .btn-buy:hover {;
+  background-color: #6a3900;
+}
+
+.item-control .btn-buy:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.item-price {
+  color: #000;
+}
