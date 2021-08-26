@@ -269,3 +269,30 @@ body {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
+.feature-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 60;
+  background-image: url(../img/icon-kvast.png);
+  background-repeat: no-repeat;
+}
+
+.feature-brew::before {
+  background-position: -5px -49px;
+  width: 50px;
+  height: 68px;
+}
+
+.feature-matreshka::before {
+  width: 46px;
+  height: 65px;
+  background-position: -65px -49px;
+}
+
+.feature-thumsup::before {
+  width: 63px;
+  height: 58px;
+  background-position: -164px -5px;
+}
