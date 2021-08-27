@@ -365,3 +365,9 @@ body {
 .list-source a:active {
   color: rgba(106, 57, 0, 0.3);
 }
+
+.review {
+  background-color: #ede4d7;
+  padding-top: 95px;
+  padding-bottom: 90px;
+}
