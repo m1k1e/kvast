@@ -353,3 +353,15 @@ body {
   margin: 0;
   width: 470px;
 }
+
+.list-source a {
+  color: #834700;
+}
+
+.list-source a:hover {
+  color: #6a3900;
+}
+
+.list-source a:active {
+  color: rgba(106, 57, 0, 0.3);
+}
