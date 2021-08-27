@@ -302,3 +302,14 @@ body {
   background-color: fff;
   padding: 90px 0;
 }
+
+.history-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 61px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
