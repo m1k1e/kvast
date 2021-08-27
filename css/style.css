@@ -372,9 +372,6 @@ body {
   padding-bottom: 90px;
 }
 
-.review .small_container {
-  position: relative;
-}
 
 .review-title {
   font-weight: bold;
@@ -401,10 +398,43 @@ body {
   content: "";
   height: 31px;
   position: absolute;
-  top: 170px;
+  top: 5px;
   left: -80px;
   width: 41px;
   background-image: url("../img/icon-kvast.png");
   background-repeat: no-repeat;
   background-position: -191px -73px;
+}
+
+.review-item cite {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase;
+  
+}
+
+.review-item .btn {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 20px 20px 25px;
+}
+
+.review-item .btn:hover {
+  background-color: #a59f97;
+  border-color: #a59f97;
+  color: #fff;
+}
+
+.review-item .btn:active {
+  background-color: #8f8980;
+  border-color: #8f8980;
+  color: rbga(255, 255, 255, 0.3);
 }
