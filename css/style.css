@@ -372,6 +372,10 @@ body {
   padding-bottom: 90px;
 }
 
+.review .small_container {
+  position: relative;
+}
+
 .review-title {
   font-weight: bold;
   font-size: 40px;
@@ -380,4 +384,27 @@ body {
   margin: 0;
   margin-bottom: 100px;
   text-transform: uppercase;
+}
+
+.review-item {
+  margin: 0;
+  position: relative;
+}
+
+.review-item p {
+  width: 695px;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.review-item::before {
+  content: "";
+  height: 31px;
+  position: absolute;
+  top: 170px;
+  left: -80px;
+  width: 41px;
+  background-image: url("../img/icon-kvast.png");
+  background-repeat: no-repeat;
+  background-position: -191px -73px;
 }
