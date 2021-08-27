@@ -371,3 +371,13 @@ body {
   padding-top: 95px;
   padding-bottom: 90px;
 }
+
+.review-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 61px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
