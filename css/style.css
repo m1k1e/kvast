@@ -317,6 +317,10 @@ body {
   position: relative;
 }
 
+.history_container:first-child {
+  padding-bottom: 70px;
+}
+
 .list-title {
   font-weight: bold;
   font-size: 20px;
@@ -325,4 +329,27 @@ body {
   margin-right: 339px;
   margin-bottom: 30px;
   text-transform: uppercase;
+}
+
+.history dt {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.history dd {
+  margin: 0;
+}
+
+.history dd img {
+  position: absolute;
+  border-radius: 5px;
+  top: 60px;
+  right: 0;
+  height: 101px;
+  width: 200px;
+}
+
+.history dd p {
+  margin: 0;
+  width: 470px;
 }
