@@ -297,3 +297,8 @@ body {
   height: 58px;
   background-position: -164px -5px;
 }
+
+.history {
+  background-color: fff;
+  padding: 90px 0;
+}
