@@ -484,12 +484,21 @@ body {
   text-align: left;
 }
 
+.goods th:last-child {
+  padding-right: 0;
+  text-align: right;
+}
+
 .goods td {
-  padding: 25px 23px;
+  padding: 20px 23px;
 }
 
 .goods td:first-child {
   padding-left: 0;
+}
+
+.goods td:last-child {
+  padding-right: 0;
 }
 
 .first-column {
@@ -507,3 +516,6 @@ body {
   padding: 5px;
 }
 
+.last-column {
+  text-align: right;
+}
