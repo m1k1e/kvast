@@ -470,3 +470,10 @@ body {
 .goods tr:last-child {
   border-bottom: 1px solid #e5e5e5;
 }
+
+.goods th {
+  color: #999;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 0 23px 40px 23px;
+}
