@@ -438,3 +438,8 @@ body {
   border-color: #8f8980;
   color: rbga(255, 255, 255, 0.3);
 }
+
+.assortment {
+  padding-top: 105px;
+  padding-bottom: 115px;
+}
