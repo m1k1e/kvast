@@ -477,3 +477,7 @@ body {
   font-weight: normal;
   padding: 0 23px 40px 23px;
 }
+
+.goods td {
+  padding: 25px 23px;
+}
