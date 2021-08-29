@@ -535,6 +535,10 @@ body {
   margin: 0;
   margin-bottom: 100px;
   text-transform: uppercase;
+}
 
-
+.order-tip {
+  margin: 0;
+  margin-bottom: 80px;
+  width: 640px;
 }
