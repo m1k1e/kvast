@@ -526,3 +526,15 @@ body {
   padding-top: 95px;
   padding-bottom: 110px;
 }
+
+.order-title {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 61px;
+  margin: 0;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+
+
+}
