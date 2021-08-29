@@ -542,3 +542,77 @@ body {
   margin-bottom: 80px;
   width: 640px;
 }
+
+.form-order {
+  width: 630px;
+}
+
+.order-form-group {
+  margin-bottom: 25px;
+}
+
+.order-form-group label {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.order-form-group-left {
+  float:left;
+  width: 290px;
+}
+
+.order-form-group-right {
+  float: right;
+  width: 290px;
+}
+
+.form-order input[type="text"],
+.form-order select,
+.form-order textarea {
+  background-color: #e5b56c;
+  box-sizing: border-box;
+  border: transparent;
+  font: inherit;
+  font-weight: bold;
+  color: inherit;
+  height: 50px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.form-order input[type="text"]:hover,
+.form-order select:hover,
+.form-order textarea:hover {
+  background-color: #d9ac66;
+  border: transparent;
+}
+
+.form-order input[type="text"]:focus,
+.form-order select:focus,
+.form-order textarea:focus {
+  background-color: #fff;
+  border: transparent;
+  color: #000;
+}
+
+.form-order textarea {
+  display: block;
+  min-height: 120px;
+}
+
+.checkbox-area {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+
+.checkbox-area input {
+  background-color: #e5b56c;
+  margin: 0;
+  margin-right: 20px;
+}
