@@ -212,7 +212,7 @@ body {
 }
 
 .item-control .btn-buy {
-  color: #ffffff;
+  color: #fff;
   background-color: #834700;
   margin-left: 10px;
   margin-right: 25px;
@@ -611,8 +611,24 @@ body {
   text-transform: uppercase;
 }
 
-.checkbox-area input {
-  background-color: #e5b56c;
+.checkbox-area input[type="checkbox"] {
   margin: 0;
   margin-right: 20px;
+}
+
+.btn-send-order {
+  background-color: #834700;
+  border: transparent;
+  color: #fff;
+  font-weight: bold;
+  padding: 18px 22px;
+  text-transform: uppercase;
+}
+
+.btn-send-order:hover {;
+  background-color: #6a3900;
+}
+
+.btn-send-order:active {
+  color: rgba(255, 255, 255, 0.3);
 }
