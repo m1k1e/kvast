@@ -632,3 +632,45 @@ body {
 .btn-send-order:active {
   color: rgba(255, 255, 255, 0.3);
 }
+
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background-color: #000;
+}
+
+.footer-logo {
+  float: left;
+  height: 76px;
+  width: 140px;
+}
+
+.footer-nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 130px;
+}
+
+.footer-top {
+  margin-bottom: 45px;
+}
+
+.footer-middle {
+  float: left;
+}
+
+.footer-bottom {
+  float: left;
+  margin-left: 130px;
+}
+
+.footer-bottom p {
+  float: left;
+  width: 260px;
+}
+
+.footer-copyright {
+  float: left;
+  margin-left: 130px;
+}
