@@ -654,6 +654,7 @@ body {
 
 .footer-top {
   margin-bottom: 45px;
+  margin-top: 60px;
 }
 
 .footer-middle {
@@ -673,4 +674,11 @@ body {
 .footer-copyright {
   float: left;
   margin-left: 130px;
+}
+
+.footer-logo {
+  margin-left: 40px;
+  margin-right: 130px;
+  height: 76px;
+  width: 140px;
 }
