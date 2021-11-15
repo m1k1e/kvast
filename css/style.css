@@ -662,13 +662,16 @@ body {
 }
 
 .footer-bottom {
+  color: #989898;
   float: left;
-  margin-left: 130px;
+  margin-left: 90px;
 }
 
 .footer-bottom p {
   float: left;
   width: 260px;
+  margin:0;
+  margin-top: 10px;
 }
 
 .footer-copyright {
@@ -737,8 +740,8 @@ body {
   display: inline-block;
   vertical-align: middle;
   color: #ffffff;
-  height: 70px;
-  width: 70px;
+  height: 68px;
+  width: 68px;
 }
 
 .social-btn:not(:last-child) {
@@ -768,4 +771,12 @@ body {
   background-position: 30px 30px;
 }
 
+.htmlacademy-logo {
+  font-size: 0;
+  background-image: url(../img/htmlacademy.png);
+  background-position: 20px 18px;
+}
 
+.social-btn .htmlacademy-logo {
+  border-right: 1px solid #322d24;
+}
